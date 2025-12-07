@@ -96,7 +96,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Credits
 
 - Route optimization powered by [GraphHopper](https://www.graphhopper.com/)
-- Map tiles by [Carto](https://carto.com/)
+- Map tiles by [Omniscale](https://omniscale.com/) (with [Carto](https://carto.com/) as fallback)
 
 ---
 
