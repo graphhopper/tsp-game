@@ -7,6 +7,8 @@ An interactive web game where you try to solve the Traveling Salesman Problem (T
 ![React](https://img.shields.io/badge/React-19-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
 
+![TSP Challenge Screenshot](screenshot.png)
+
 ## 🎮 Play the Game
 
 **[Play Now →](https://tsp-challenge.web.app)** *(Deployed on Firebase Hosting)*
