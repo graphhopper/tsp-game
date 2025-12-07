@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle (Dark Slate Blue) -->
+  <circle cx="256" cy="256" r="240" fill="#0f172a" />
+  
+  <!-- Connecting Lines -->
+  <path d="M256 120 L140 340 L372 340 Z" fill="none" stroke="white" stroke-width="12" stroke-opacity="0.8" />
+  
+  <!-- Nodes -->
+  <!-- Top Node (Cyan) -->
+  <circle cx="256" cy="120" r="32" fill="#22d3ee" filter="url(#glow)" />
+  
+  <!-- Bottom Left Node (Pink) -->
+  <circle cx="140" cy="340" r="32" fill="#ec4899" filter="url(#glow)" />
+  
+  <!-- Bottom Right Node (Cyan) -->
+  <circle cx="372" cy="340" r="32" fill="#22d3ee" filter="url(#glow)" />
+</svg>
