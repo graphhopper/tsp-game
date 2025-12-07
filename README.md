@@ -53,6 +53,15 @@ cp .env.example .env
 npm run dev
 ```
 
+### Environment Variables
+
+Create a `.env` file based on `.env.example`:
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `VITE_GRAPHHOPPER_API_KEY` | Yes | API key for route optimization and distance calculations. Get one at [graphhopper.com](https://www.graphhopper.com/) |
+| `VITE_OMNISCALE_API_KEY` | No | API key for Omniscale map tiles. Falls back to Carto tiles if not provided. Get one at [omniscale.com](https://omniscale.com/) |
+
 ### Build for Production
 
 ```bash
