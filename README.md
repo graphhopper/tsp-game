@@ -39,7 +39,7 @@ It sounds simple, but TSP is NP-hard - the number of possible routes grows facto
 
 ```bash
 # Clone the repository
-git clone https://github.com/oblonski/tsp-game.git
+git clone https://github.com/graphhopper/tsp-game.git
 cd tsp-game
 
 # Install dependencies
