@@ -11,7 +11,7 @@ An interactive web game where you try to solve the Traveling Salesman Problem (T
 
 ## 🎮 Play the Game
 
-**[Play Now →](https://tsp-game-app.web.app/)** *(Deployed on Firebase Hosting)*
+**[Play Now →](https://tsp-game.graphhopper.com/)** *(Deployed on Firebase Hosting)*
 
 ## 🎯 What is TSP?
 
